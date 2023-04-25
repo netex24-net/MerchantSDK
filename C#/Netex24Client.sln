@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netex24ClientTests", "Netex24ClientTests\Netex24ClientTests.csproj", "{E1A217B4-FC81-48FB-8E8E-681B7A942E4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netex24Client", "Netex24Client\Netex24Client.csproj", "{3DC60F13-0DC1-4425-8710-87D03812B846}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1A217B4-FC81-48FB-8E8E-681B7A942E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A217B4-FC81-48FB-8E8E-681B7A942E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A217B4-FC81-48FB-8E8E-681B7A942E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A217B4-FC81-48FB-8E8E-681B7A942E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DC60F13-0DC1-4425-8710-87D03812B846}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DC60F13-0DC1-4425-8710-87D03812B846}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DC60F13-0DC1-4425-8710-87D03812B846}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DC60F13-0DC1-4425-8710-87D03812B846}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
