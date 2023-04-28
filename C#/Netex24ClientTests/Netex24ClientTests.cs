@@ -21,7 +21,7 @@ public class Tests
             .GetSettingsAsync()
             .Returns(new Netex24ClientSettings
         {
-            BaseUri = "https://netex24-test.netex24.net/api/",
+            BaseUri = "https://netex24.net/api/",
             ApiKey = privateKey,
             MerchantId = "440a41f7-8267-4509-9338-7b99aee364a8"
         });
@@ -76,9 +76,9 @@ public class Tests
         var r = new HoldMoneyRequest
         {
             Amount = 5,
-            PhoneNumber = "+79081780961",
+            PhoneNumber = "+79080000000",
             Type = 2,
-            ReceivingAccount = "+79081780961",
+            ReceivingAccount = "+79080000000",
         };
         
         var response = await _target.SendAsync(r);
